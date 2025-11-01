@@ -1,0 +1,9 @@
+
+body { font-family: Arial, sans-serif; background: linear-gradient(135deg,#667eea,#764ba2); color:white; display:flex; justify-content:center; align-items:center; height:100vh; margin:0;}
+.container { text-align:center; background: rgba(0,0,0,0.4); padding:30px; border-radius:20px; box-shadow:0 0 20px rgba(0,0,0,0.5);}
+h1 { margin-bottom:20px; animation: fadeIn 2s;}
+input[type=file] { padding:10px; border-radius:10px; border:none; margin-bottom:10px;}
+button { padding:10px 20px; border:none; border-radius:10px; background:#ff7f50; color:white; cursor:pointer; font-size:16px; transition:0.3s;}
+button:hover { background:#ff5722; transform:scale(1.05); }
+.note { font-size:14px; margin-top:10px; color:#fdd;}
+@keyframes fadeIn { 0% {opacity:0;} 100% {opacity:1;} }
